@@ -65,7 +65,7 @@ int main ()
         cout << "Descontar articulo: " << endl;
         cout << "Codigo a buscar: ";
         getchar();
-        cin.getline(codigo, 0);
+        cin.getline(codigo, 20);
         cout << "Cantidad a descontar: ";
         cin >> cantidad;
 
